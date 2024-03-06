@@ -1,3 +1,20 @@
 body{
     background-color: grey;
 }
+#gridBox{
+    display: flex;
+    border: solid 5px pink;
+    width: 500px;
+    height: 500px;
+    
+}
+.boxFlex{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    border: solid 1px black;
+}
+.boxCol{
+    border: solid 1px black;
+    flex: 1 1 0%;
+}
